@@ -4,6 +4,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
 **Discription**
+
 Brain Games is a console game including 5 games. In each game your should answer on three questions correctly.
 
 **Games:**
@@ -12,6 +13,7 @@ Brain Games is a console game including 5 games. In each game your should answer
 - Even or Odd number
 - Find the Largest Common Divisor
 - Is it prime number or not
+
 **Setup**
 
 ```
