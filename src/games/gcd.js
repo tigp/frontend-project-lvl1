@@ -6,7 +6,13 @@ const generateDate = () => {
   const num2 = getRandomNumber();
   const question = `${num1} ${num2}`;
 
-  const divisor = (a, b) => !b ? a : divisor(b, a % b);
+  const divisor = (a, b) => {
+    if (!b) {
+      return a;
+    }
+
+    return divisor(b, a % b);
+  };
 
   const answer = divisor(num1, num2).toString();
 
