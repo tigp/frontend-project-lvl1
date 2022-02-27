@@ -20,9 +20,11 @@ Brain Games is a console game including 5 games. In each game your should answer
 make install
 sudo npm link
 ```
+
 **How to play**
 
-Just enter in console commad below
+Just enter in console commad below.
+
 ```javascript
 brain-gcd         | Greatest common divisor
 brain-calc        | Calculator
