@@ -5,7 +5,7 @@
 
 # Brain Game
 
-## Games :
+Games:
 -- Calculator
 -- Progression
 
@@ -13,7 +13,7 @@
 
 
 
-## Setup
+Setup
 
 ```
 make install
