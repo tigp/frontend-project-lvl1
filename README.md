@@ -5,12 +5,13 @@
 
 **Discription**
 Brain Games is a console game including 5 games. In each game your should answer on three questions correctly.
+
 **Games:**
--- Calculator
--- Progression
--- Even or Odd number
--- Find the Largest Common Divisor
--- Is it prime number or not
+- Calculator
+- Progression
+- Even or Odd number
+- Find the Largest Common Divisor
+- Is it prime number or not
 **Setup**
 
 ```
@@ -18,6 +19,7 @@ make install
 sudo npm link
 ```
 **How to play**
+
 Just enter in console commad below
 ```javascript
 brain-gcd         | Greatest common divisor
