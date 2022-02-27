@@ -21,7 +21,7 @@ make install
 sudo npm link
 ```
 
-**How to play**
+### How to play
 
 Just enter in console commad below.
 
