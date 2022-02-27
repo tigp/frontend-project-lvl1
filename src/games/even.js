@@ -1,5 +1,4 @@
 import getRandomNumber from '../random-number.js';
-import greeting from '../cli.js';
 import game from '../index.js';
 
 const generateData = () => {
