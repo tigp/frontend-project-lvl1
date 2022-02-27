@@ -18,9 +18,7 @@ const game = (rulesMessage, roundsCount, generateData) => {
     }
   }
 
-  const congratulations = `Congratulations, ${userName}!`;
-
-  return congratulations;
+  return console.log(`Congratulations, ${userName}!`);
 };
 
 export default game;
