@@ -4,7 +4,6 @@
 
 
 # Brain Game
-
 Games:
 -- Calculator
 -- Progression
