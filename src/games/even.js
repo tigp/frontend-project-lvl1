@@ -1,25 +1,20 @@
-import readlineSync from 'readline-sync';
 import getRandomNumber from '../random-number.js';
 import greeting from '../cli.js';
+import game from '../index.js';
 
-const evenGame = () => {
-  const userName = greeting();
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  let i = 0;
+const generateData = () => {
+  const isEven = (num) => num % 2 === 0;
 
-  while (i < 3) {
-    const randomNum = getRandomNumber();
-    const userAnswer = readlineSync.question(`Question: ${randomNum}\nYour answer: `);
-    const answer = randomNum % 2 === 0 ? 'yes' : 'no';
-    if (userAnswer === answer) {
-      console.log('Correct!');
-      i += 1;
-    } else {
-      return console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${userName}!`);
-    }
-  }
+  const num = getRandomNumber();
+  const question = num.toString();
+  const answer = isEven(num) ? 'yes' : 'no';
 
-  return console.log(`Congratulations, ${userName}!`);
+  return [question, answer];
 };
 
-export default evenGame;
+const even = () => {
+  const rulesMessage = 'Answer "yes" if the number is even, otherwise answer "no".';
+  const roundsCount = 3;
+  game(rulesMessage, roundsCount, generateData);
+};
+export default even;
