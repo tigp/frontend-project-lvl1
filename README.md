@@ -5,7 +5,7 @@
 
 ## Discription
 
-Brain Games is a console game including 5 games. In each game your should answer correctly on three questions.
+B🌧 Games is a console game including 5 games. In each game your should answer correctly on three questions.
 
 ### Games:
 - Calculator
