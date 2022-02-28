@@ -21,7 +21,7 @@ make install
 sudo npm link
 ```
 
-### How to play
+### How to play?
 
 Just enter in console commad below.
 
@@ -33,5 +33,6 @@ brain-prime       | Prime number
 brain-progression | Progression
 ```
 
-Link test [Google](https://www.google.com "The worst privacy").
 ### Demonstration 
+[Installing](https://asciinema.org/a/472744 "Installong")
+[![asciicast](https://asciinema.org/a/472744.svg)](https://asciinema.org/a/472744)
