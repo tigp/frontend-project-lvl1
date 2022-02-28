@@ -35,8 +35,13 @@ brain-progression | Progression
 
 ### Demonstration 
 [Installing](https://asciinema.org/a/472744 "Installing")
+
 [Prime](https://asciinema.org/a/472747 "Prime")
+
 [Calculator](https://asciinema.org/a/472756 "Calc")
+
 [Even](https://asciinema.org/a/472829 "Even")
+
 [Greatest Commom Divisor](https://asciinema.org/a/472832 "GCD")
+
 [Progression](https://asciinema.org/a/472839 "Progression")
