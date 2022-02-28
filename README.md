@@ -5,13 +5,13 @@
 
 ## Discription
 
-Brain Games is a console game including 5 games. In each game your should answer on three questions correctly.
+Brain Games is a console game including 5 games. In each game your should answer correctly on three questions.
 
 ### Games:
 - Calculator
 - Progression
 - Even or Odd number
-- Find the Largest Common Divisor
+- Find the Greatest Common Divisor
 - Is it prime number or not
 
 ### Setup
@@ -34,3 +34,4 @@ brain-progression | Progression
 ```
 
 Link test [Google](https://www.google.com "The worst privacy").
+### Demonstration 
