@@ -13,7 +13,6 @@ const generateData = () => {
 
 const even = () => {
   const rulesMessage = 'Answer "yes" if the number is even, otherwise answer "no".';
-  const roundsCount = 3;
-  game(rulesMessage, roundsCount, generateData);
+  game(rulesMessage, generateData);
 };
 export default even;

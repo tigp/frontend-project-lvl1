@@ -21,8 +21,7 @@ const generateDate = () => {
 
 const gcd = () => {
   const rulesMessage = 'Find the greatest common divisor of given numbers.';
-  const roundsCount = 3;
-  game(rulesMessage, roundsCount, generateDate);
+  game(rulesMessage, generateDate);
 };
 
 export default gcd;

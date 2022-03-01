@@ -6,7 +6,7 @@ const generateData = () => {
   let current = getRandomNumber();
   const progressionStep = getRandomNumber(7, 20);
 
-  for (let i = 0; i < 10; i += 1) {
+  for (let i = 0; i < getRandomNumber(5, 10); i += 1) {
     progression.push(current);
     current += progressionStep;
   }
@@ -21,8 +21,7 @@ const generateData = () => {
 
 const progression = () => {
   const rulesMessage = 'What number is missing in the progression?';
-  const roundsCount = 3;
-  game(rulesMessage, roundsCount, generateData);
+  game(rulesMessage, generateData);
 };
 
 export default progression;

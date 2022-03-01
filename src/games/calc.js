@@ -31,8 +31,7 @@ const generateDate = () => {
 
 const calc = () => {
   const rulesMessage = 'What is the result of the expression?';
-  const roundsCount = 3;
-  game(rulesMessage, roundsCount, generateDate);
+  game(rulesMessage, generateDate);
 };
 
 export default calc;

@@ -21,8 +21,7 @@ const generateData = () => {
 
 const prime = () => {
   const rulesMessage = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-  const roundsCount = 3;
-  game(rulesMessage, roundsCount, generateData);
+  game(rulesMessage, generateData);
 };
 
 export default prime;
